@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>selectores</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/misestilos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">Inicio</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="selectores.html">selectores</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container py-3">
+        <h1>Selectores en <strong>CSS</strong></h1>
+        <p>Los selectores en CSS nos permiten acceder a cualquier elemento o grupo de elementos, para aplicar estilos sobre el/ellos en una única declaración. Como su nombre indica, permiten seleccionar aquellos elementos sobre los que se van a aplicar las reglas de estilo.</p>
+        <p>Dentro del código CSS podemos usar selectores y aplicarles un conjunto de estilos determinado. Para ello escribimos el selector y colocamos los atributos de estilos encerrados entre llaves:
+        </p>
+        <img id="tamanoimagen" src="resources/img/selectorescss.JPG">
+        <p>Existen selectores de lo más variado, que permiten ajustar de una manera.muy precisa qué elementos se desea seleccionar. Los más importantes son los siguientes:</p>
+        <ul>
+            <li>
+                <p><strong>Etiqueta:</strong> sirven para seleccionar todos los elementos de una misma etiqueta o tag HTML.</p>
+                <img id="tamanoimagen" src="resources/img/etiqueta.JPG">
+            </li>
+            <li>
+                <p><strong>Clase:</strong> selecciona todos los elementos de una clase determinada. (Class de CSS).</p>
+                <img id="tamanoimagen" src="resources/img/clase.JPG">
+            </li>
+            <li>
+                <p><strong>Identificador:</strong> permiten seleccionar etiquetas individuales por el atributo Id de la etiqueta.</p>
+                <img id="tamanoimagen" src="resources/img/identificador.JPG">
+            </li>
+            <li>
+                <p><strong>Atributo:</strong> permiten seleccionar todas las etiquetas que tengan un atributo dado, o bien un atributo con un valor determinado.</p>
+                <img id="imagenesgrandes" src="resources/img/atributo.JPG">
+            </li>
+        </ul>
+
+        <p>
+            Además, los selectores se pueden combinar entre sí para conseguir selectores mucho más precisos:
+            Estos selectores obtienen las imágenes que tengan el atributo alt y los párrafos que tengan la clase "desactivado".
+        </p>
+
+        <img id="imagenesgrandes" src="resources/img/agrupacionselectores.JPG">
+        <p>También podemos relacionar los selectores con un espacio y entonces el significado cambia totalmente, ya que se estaría indicando que un elemento tiene que estar dentro de otro.
+
+            Este selector aplicaría estilos a todos los elementos h2 que estén dentro de contenedores que tienen la clase "nota".</p>
+        <img id="tamanoimagen" src="resources/img/h2.JPG">
+
+        <p>También podemos combinar los selectores de CSS usando una coma. Entonces estamos indicando que los atributos de estilo deben aplicarse a los dos selectores por separado.
+
+            Así estaríamos indicando que queremos aplicar estilos sobre todos los párrafos y todas las divisiones con la clase "bloque".</p>
+        <img id="tamanoimagen" src="resources/img/ultima.JPG">
+
+    </div>
+    <footer class="jumbotron text-center my-0 bg-dark text-white" id="quitarbordefooter">
+        Santiago Ocampo Jimenez &copy; 2021
+    </footer>
+
+</body></html>

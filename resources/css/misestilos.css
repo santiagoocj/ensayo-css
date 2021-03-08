@@ -1,0 +1,19 @@
+#tamanoimagen {
+    width: 700px;
+    height: 120px;
+}
+
+#imagenesgrandes {
+    width: 700px;
+    height: 180px
+}
+
+#bordes{
+    margin-bottom: 0;
+    background-color: #399DE4;
+    border-radius: 0px;
+}
+
+#quitarbordefooter{
+    border-radius: 0px;
+}
